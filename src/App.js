@@ -8,6 +8,7 @@ import Signup from './components/Signup';
 import"bootstrap/dist/js/bootstrap.min.js";
 import Mpesapayment from './components/Mpesapayment';
 import Aboutus from './components/Aboutus';
+import Chatus from './components/Chatus';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         <Route path='/signup' element={<Signup/>}/>
         <Route path='/mpesapayment' element={<Mpesapayment/>}/>
         <Route path='/aboutus' element={<Aboutus/>}/>
+        <Route path='/chatus' element={<Chatus/>}/>
       </Routes>
     </div>  
     </Router>

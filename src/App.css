@@ -25,6 +25,19 @@
 }
 .nav{
   margin-top: 15px;
+  .mybcgcontainer {
+    width: 100%;
+    height: 100vh;
+    background-color: #111111;
+    background-image: linear-gradient(
+      32deg,
+      rgba(8, 8, 8, 0.74) 30px,
+      transparent
+    );
+    background-size: 60px 60px;
+    background-position: -5px -5px;
+  }
+  
 }
 .links{
   background-color: blue;
@@ -37,11 +50,17 @@
 }
 
 .footer-background-color{
-  background-color: rgb(0, 156, 60);
+  background-color: rgb(44, 156, 0);
 }
-.bootom-footer{
-  background-color: rgb(32, 17, 167);
+/* style.css or similar */
+.bottom-footer {
+  background-color: #343a40;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
+
+
 .backstyling{
   background-color: rgb(161, 203, 252);
 }
