@@ -53,8 +53,8 @@
   background-color: rgb(44, 156, 0);
 }
 /* style.css or similar */
-.bottom-footer {
-  background-color: #343a40;
+.myfooter {
+  background-color: #004080;
   position: relative;
   bottom: 0;
   width: 100%;

@@ -1,10 +1,12 @@
 
 import Footer from './Footer';
+import Navbar from './Navbar';
 
  
 const Aboutus = () => {
   return (
     <div className="row justify-content-center">
+        <Navbar/>
 
  
         <h1 className='display-4 text-danger'>About Us</h1>

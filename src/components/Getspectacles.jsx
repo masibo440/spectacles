@@ -58,7 +58,11 @@ const Getspectacles = () => {
 
       <Navbar/>
       <ImageCarousel/>
-      <h3 className="text-info mt-3">Available Products</h3>
+      <h3 className="text-2xl font-bold text-gray-800 mt-6 flex items-center gap-3">
+  <span className="text-3xl">👓</span>
+  Available Products
+  <span className="text-3xl">👓</span>
+</h3>
 
       
 <div className="row justify-content-center mt-3 mb-3">

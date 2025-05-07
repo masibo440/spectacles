@@ -40,7 +40,7 @@ const Footer = () => {
         </section>
   
         {/* Bottom Footer */}
-        <footer className="text-white text-center p-3 bootom-footer">
+        <footer className="text-black text-center p-3 myfooter">
           <small>
             Developed by Glenn Masibo &copy; 2025. All rights reserved. Reach me at <a href="tel:0758770667" className="text-light text-decoration-none">0758770667</a>
           </small>

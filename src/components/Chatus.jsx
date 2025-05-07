@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Navbar from './Navbar';
+
+<Navbar/>
 
 const chatPairs = [
   { pattern: /hi|hello|hey/i, responses: [

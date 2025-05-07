@@ -67,6 +67,7 @@ const Signin = () => {
 
   return (
     <div className="row justify-content-center mybcgcontainer">
+      <Navbar/>
       <div className="col-md-6 card shadow p-4">
         <h2>Sign In</h2>
         <form onSubmit={submit}>

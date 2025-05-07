@@ -53,24 +53,24 @@ const ImageCarousel = () => {
               <div className="carousel-item">
                 <img src="images/advert2.jpg" alt="" className="d-block w-100" height="300px" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Delicious Yoghurt 2</h5>
-                  <p>Made with natural ingredients</p>
+                  <h5>Big issue big problem</h5>
+                  <p>defeat the desease to see the bright future</p>
                 </div>
               </div>
 
               <div className="carousel-item">
                 <img src="images/advert3.jpg" alt="" className="d-block w-100" height="300px" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Delicious Yoghurt 3</h5>
-                  <p>Rich in flavor and goodness</p>
+                  <h5>Open the eyes open the future</h5>
+                  <p>Enables you to defeate every type of rays that may affect your eye sight</p>
                 </div>
               </div>
 
               <div className="carousel-item">
                 <img src="images/advert4.jpg" alt="" className="d-block w-100" height="300px" />
                 <div className="carousel-caption d-none d-md-block">
-                  <h5>Delicious Yoghurt 4</h5>
-                  <p>Perfect for every occasion</p>
+                  <h5>look good and presentable</h5>
+                  <p>enhances the beauty and the looking of your own and also the sorrounding</p>
                 </div>
               </div>
             </div>
