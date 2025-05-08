@@ -12,14 +12,15 @@ const Aboutus = () => {
         <h1 className='display-4 text-danger'>About Us</h1>
 
  
-        <div className="col-md-6">
-            <div className="card shadow p-4 m-3">
-                <img src="images/team.jpg" alt="our team" />
-            </div>
-        </div>
+        <video
+        src='videos/vid1.mp4'
+        autoPlay
+        muted
+        loop
+        className='w-50 mt-4'></video>
         <div className="col-md-6 justify-content-start">
-            <h2 className='text-success'>Members:</h2>
-            <ul >
+            <h2 className='text-primary'>OFFICIALS:</h2>
+            <ul className='text-danger' >
                 <li>Glenn : CEO</li>
                 <li>Kevin: COO</li>
                 <li>Joseph: Member</li>
