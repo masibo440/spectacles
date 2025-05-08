@@ -59,6 +59,37 @@
   bottom: 0;
   width: 100%;
 }
+.myfooter {
+  background-color: #000; /* Black background for contrast */
+  overflow: hidden;
+  position: relative;
+}
+
+.moving-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 15s linear infinite;
+  background: linear-gradient(90deg, #ff6ec4, #7873f5, #42e695, #ff6ec4);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.text-phone {
+  color: #ff4c60;
+}
+
 
 
 .backstyling{

@@ -25,7 +25,7 @@ const Aboutus = () => {
                 <li>Joseph: Member</li>
                 <li>Faith: Member</li>
             </ul>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque dicta atque, voluptatum minima iste nulla animi excepturi laboriosam? Cum impedit exercitationem minus dolor velit itaque?</p>
+            <p>We belive in a better sight so that you can have a brighter future. We are located in Eldoret Opposite Knowledge spring school of optical engineering.Come visit us and enjoy your the rest of your life.....WELCOME</p>
 
  
             <h3 className='text-primary'>Over 30+ services, over 1200+ customers served...</h3>

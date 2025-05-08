@@ -40,11 +40,15 @@ const Footer = () => {
         </section>
   
         {/* Bottom Footer */}
-        <footer className="text-black text-center p-3 myfooter">
-          <small>
-            Developed by Glenn Masibo &copy; 2025. All rights reserved. Reach me at <a href="tel:0758770667" className="text-light text-decoration-none">0758770667</a>
-          </small>
-        </footer>
+        <footer className="text-center p-3 myfooter">
+  <small className="moving-text">
+    Developed by Glenn Masibo &copy; 2025. All rights reserved. Reach me at{' '}
+    <a href="tel:0758770667" className="text-decoration-none text-phone">
+      0758770667
+    </a>
+  </small>
+</footer>
+
       </div>
     );
   };
