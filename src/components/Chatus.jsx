@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
-<Navbar/>
 
 const chatPairs = [
   { pattern: /hi|hello|hey/i, responses: [
@@ -85,6 +85,7 @@ export default function ChatBot() {
 
   return (
     <div className="p-4 max-w-md mx-auto">
+      <Navbar/>
       <h1 className="text-xl font-bold mb-4">Kony Optic ChatBot</h1>
       <div className="border p-3 h-64 overflow-y-auto bg-gray-50 rounded">
         {messages.map((msg, i) => (
@@ -105,6 +106,7 @@ export default function ChatBot() {
         />
         <button onClick={handleSend} className="bg-blue-500 text-white p-2 rounded-r">Send</button>
       </div>
+      <Footer/>
     </div>
   );
 }

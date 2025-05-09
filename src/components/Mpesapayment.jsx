@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import { useLocation } from 'react-router-dom'
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Mpesapayment = () => {
 
@@ -37,6 +39,7 @@ const Mpesapayment = () => {
 
   return (
     <div className='row justify-content-center mt-3'>
+      <Navbar/>
         <h1 className='text-danger'>Lipa na Mpesa</h1>
         <div className="col-md-6 card shadow p-3">
           <b className='text-primary'>{message}</b>
@@ -57,7 +60,7 @@ const Mpesapayment = () => {
             <button className='btn btn-success'>Make Payment</button>
         </form>
         </div>
-    
+    <Footer/>
     </div>
     
   )

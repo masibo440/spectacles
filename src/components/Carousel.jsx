@@ -43,7 +43,7 @@ const ImageCarousel = () => {
 
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="images/Advert0.png" alt="" className="d-block w-100" height="300px" />
+                <img src="images/Banner_usp_2.webp" alt="" className="d-block w-100" height="300px" />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>best at all time</h5>
                   <p>better your beste eye</p>
@@ -51,7 +51,7 @@ const ImageCarousel = () => {
               </div>
 
               <div className="carousel-item">
-                <img src="images/advert2.jpg" alt="" className="d-block w-100" height="300px" />
+                <img src="images/Banner1.webp" alt="" className="d-block w-100" height="300px" />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Big issue big problem</h5>
                   <p>defeat the desease to see the bright future</p>
@@ -59,7 +59,7 @@ const ImageCarousel = () => {
               </div>
 
               <div className="carousel-item">
-                <img src="images/advert3.jpg" alt="" className="d-block w-100" height="300px" />
+                <img src="images/Banner2.webp" alt="" className="d-block w-100" height="300px" />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>Open the eyes open the future</h5>
                   <p>Enables you to defeate every type of rays that may affect your eye sight</p>
@@ -67,7 +67,7 @@ const ImageCarousel = () => {
               </div>
 
               <div className="carousel-item">
-                <img src="images/advert4.jpg" alt="" className="d-block w-100" height="300px" />
+                <img src="images/Banner3.webp" alt="" className="d-block w-100" height="300px" />
                 <div className="carousel-caption d-none d-md-block">
                   <h5>look good and presentable</h5>
                   <p>enhances the beauty and the looking of your own and also the sorrounding</p>
